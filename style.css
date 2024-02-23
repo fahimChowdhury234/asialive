@@ -23,6 +23,11 @@ p {
     margin: 0;
 }
 
+ul {
+    padding: 0;
+    list-style: none;
+}
+
 a {
     text-decoration: none;
 }
@@ -223,6 +228,10 @@ a {
     max-height: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+.lottery-section {
+    margin-bottom: 50px;
 }
 
 .lottery-drawing-header h2,
@@ -500,7 +509,7 @@ a {
 }
 
 .lottery-result-card .lottery-card-title .glyphicon svg {
-    width: 20px;
+    width: 18px;
 }
 
 .lottery-result-card .lottery-card-content {
@@ -547,4 +556,168 @@ a {
     font-size: 15px;
     font-weight: 500;
     color: #252525;
+}
+
+.lottery-number-yellow {
+    background-color: #FFA500 !important;
+}
+
+.lottery-number-pink {
+    background-color: #ce00ff !important;
+}
+
+
+.last-draw-results-link-container {
+    text-align: center;
+}
+
+.last-draw-results-link-container a {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 5px 20px;
+    background-color: #80f;
+    width: fit-content;
+    margin: 0 auto;
+    border-radius: 4px;
+    margin-top: 20px;
+    transition: all .4s ease-in;
+}
+
+.last-draw-results-link-container a svg {
+    width: 20px;
+}
+
+.last-draw-results-link-container a:hover {
+    background-color: #6c00cc;
+
+}
+
+.site-footer {
+    background-color: #e8ecee;
+    padding: 30px 0;
+}
+
+.footer-section-title h4 {
+    font-size: 14px;
+    color: #000;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.bank-list li img {
+    width: 80px;
+    height: 40px;
+    object-fit: cover;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+}
+
+.contact .contact-list {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.supported-browser-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.footer-separator {
+    padding: 15px 0;
+    margin: 15px 0;
+
+}
+
+.footer-separator::after {
+    content: '';
+    border-top: 1px dotted #000;
+    display: block;
+}
+
+.hover-list {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.hover-list li img {
+    filter: grayscale(5);
+    opacity: 0.7;
+    transition: all .4s ease-in;
+}
+
+.hover-list li img:hover {
+    filter: grayscale(0);
+    opacity: 1;
+}
+
+.site-description {
+    padding: 8px 0;
+}
+
+.site-description h1 {
+    color: #7500dc;
+    font-size: 36px;
+    margin-bottom: 10px;
+    font-weight: 500;
+
+}
+
+.site-description p {
+    text-align: justify;
+    font-size: 12px;
+}
+
+.site-description p a {
+    color: #80f;
+}
+
+.footer-links-content {
+    background-color: #7500dc;
+    padding: 10px 0;
+
+}
+
+.footer-links {
+    display: flex;
+
+}
+
+.footer-links li a {
+    color: #fff;
+    font-size: 12px;
+    padding: 0 10px;
+    display: inline-block;
+    position: relative;
+}
+
+.footer-links li a::after {
+    content: "|";
+    position: absolute;
+    top: -10px;
+    right: -3px;
+    font-size: 26px;
+    color: #ddd;
+    font-weight: 300;
+}
+
+.footer-copyRight {
+    padding-top: 20px;
+}
+
+.copyRight p {
+    font-size: 14px;
+    color: #000;
+    font-weight: 400;
 }
