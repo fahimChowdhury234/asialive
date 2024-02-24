@@ -1,0 +1,124 @@
+@media screen and (min-width: 300px) and (max-width: 768px) {
+    .lottery-drawing-header {
+        margin: 15px 0;
+    }
+
+    .top-menu {
+        overflow-x: auto;
+    }
+
+    .top-menu li a {
+        font-size: 14px;
+    }
+
+    .topbar-sub-section {
+        flex-direction: column;
+    }
+
+    .topbar-item {
+        padding: 10px 0;
+        color: #000;
+        border: none;
+    }
+
+    .daysValue,
+    .hoursValue,
+    .minutesValue,
+    .secondsValue {
+
+
+        width: 52px;
+    }
+
+    .expiration-countdown>div:not(:first-child)::before {
+        transform: translateX(-21px);
+    }
+
+    .topbar-item img {
+        filter: brightness(0.3);
+    }
+
+    .news-mic {
+        width: 15%;
+    }
+
+    .navbar {
+        flex-wrap: nowrap;
+    }
+
+    .navbar-toggler {
+        color: #fff !important;
+    }
+
+    .logo img {
+        width: 100%;
+    }
+
+    .standard-lottery-container {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .lottery-menu a {
+        margin-bottom: 10px;
+    }
+
+    .lottery-result-list {
+        flex-direction: column;
+    }
+
+    .lottery-result-card {
+        max-width: 100%;
+        flex-basis: 100%;
+    }
+
+    .contact {
+        align-items: flex-start;
+        margin-top: 10px;
+    }
+
+    .bank-list li {
+        width: 75px;
+
+    }
+
+    .bank-list li img {
+        width: 100%;
+    }
+
+    .supported-browser-container {
+        align-items: flex-start;
+        margin-top: 10px;
+    }
+
+    .site-description h1 {
+        font-size: 22px;
+    }
+
+    .footer-separator {
+        padding: 10px 0;
+        margin: 10px 0;
+    }
+
+    .footer-logo img {
+        width: 90%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .footer-links-content .container {
+        flex-direction: column;
+    }
+
+    .footer-links li a {
+        margin-top: 10px;
+    }
+
+    .footer-links li a {
+        text-align: center;
+    }
+
+    .footer-links li a::after {
+        top: 0;
+    }
+}
