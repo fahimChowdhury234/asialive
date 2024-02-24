@@ -90,6 +90,7 @@
 
     .lottery-result-card .lottery-card-title h1 {
         font-size: 12px;
+        font-weight: 500;
         white-space: nowrap;
         max-width: 150px;
         overflow: hidden;
@@ -120,7 +121,8 @@
     .lottery-number-container .lottery-number {
         width: 20px;
         height: 20px;
-        font-size: 15px;
+        font-size: 14px;
+        font-weight: 600;
     }
 
     .contact {
@@ -171,5 +173,27 @@
 
     .footer-links li a::after {
         top: 0;
+    }
+
+    .lottery-drawing-header h2,
+    .lottery-card-header h2 {
+        font-weight: 600;
+    }
+
+    .daysValue,
+    .hoursValue,
+    .minutesValue,
+    .secondsValue {
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    .slide-text span {
+        font-weight: normal;
+    }
+
+    .standard-lottery-title h3 {
+        font-weight: 600;
+        font-size: 16px;
     }
 }
